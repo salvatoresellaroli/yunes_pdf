@@ -1,0 +1,41 @@
+table {
+    width: 100% !important;
+    border-collapse: collapse;
+    margin-left: -53px;
+}
+
+table,
+th,
+td {
+    border: none
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.a {
+    background-color: aqua;
+    width: 35%;
+}
+
+.b {
+    background-color: brown;
+    width: 40%;
+}
+
+.c {
+    background-color: chocolate;
+
+    width: 20%;
+}
+.text-center{
+    text-align: center !important;
+}

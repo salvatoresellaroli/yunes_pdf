@@ -38,8 +38,8 @@ define("DELAY_SEND", 5); # Ritardo invio email
 
 $versioneAPI = 1;
 if ($isDEBUG) {
-    define("PATH_LOG", $_SERVER["DOCUMENT_ROOT"] . "/pdf/LOG/"); # Log
-    define("DIR_FILE", $_SERVER["DOCUMENT_ROOT"] . "/pdf/Attachments/"); # Cartella destinazione pdf diete del database
+    define("PATH_LOG", $_SERVER["DOCUMENT_ROOT"] . "/yunes_pdf/LOG/"); # Log
+    define("DIR_FILE", $_SERVER["DOCUMENT_ROOT"] . "/yunes_pdf/Attachments/"); # Cartella destinazione pdf diete del database
 } else {
     define("PATH_LOG", $_SERVER["DOCUMENT_ROOT"] . "/api/v" . $versioneAPI . "/LOG/"); # Log
     define("DIR_FILE", $_SERVER["DOCUMENT_ROOT"] . "/api/Attachments/"); # Cartella destinazione pdf diete del database
