@@ -3,10 +3,8 @@ include '../../Core/init.php';
 require_once __DIR__ . '/vendor/autoload.php';
 try {
     $mpdf = new \Mpdf\Mpdf( [
-        'default_font' => 'dejavusans'
+        'default_font' => 'Calibri'
     ] );
-
-    $mpdf->imageVars[ 'hr' ] = file_get_contents( 'img/hr.jpg' );
 
     if ( $_SERVER[ 'REQUEST_METHOD' ] === 'OPTIONS' ) {
         return 0;
@@ -16,8 +14,9 @@ try {
 
     $obj = $dati;
 
-    $indirizzoProv = $obj[ 'zip_prov' ].' '.$obj[ 'city_prov' ].' ('.$obj[ 'distrinct_prov' ].')';
-    $indirizzoDest = $obj[ 'zip_dest' ].' '.$obj[ 'city_dest' ].' ('.$obj[ 'distrinct_dest' ].')';
+    $indirizzoProv = $obj[ 'zip_prov' ].' - '.$obj[ 'city_prov' ].' ('.$obj[ 'distrinct_prov' ].')';
+    $indirizzoDest = $obj[ 'zip_dest' ].' - '.$obj[ 'city_dest' ].' ('.$obj[ 'distrinct_dest' ].')';
+    
     //* ///////////////////////////////////////////////////////////////////////////
     $mpdf->SetHTMLFooter( '<hr>
 		<table style="font-size: 9pt;" width="100%">
@@ -37,29 +36,51 @@ try {
     $mpdf->AddPage();
     # Sfondo
     $mpdf->Image( 'img/cover_page.png', 0, 0, 210, 275, 'png', '', true, false );
-    # Titolo
-    $mpdf->WriteText( 80, 15, 'DOCUMENTO DI TRASPORTO' );
     # Numero doc
-    $mpdf->SetFont( 'Helvetica', 'B', 13 );
-    $mpdf->WriteText( 12, 29, $obj[ 'wh_ddt_number' ] );
+    $mpdf->SetFont( 'Calibri', 'B', 13 );
+    $mpdf->WriteText( 120, 30, $obj[ 'wh_ddt_number' ] );
+    # Data documento
+    $mpdf->WriteText( 165, 30, $obj[ 'wh_ddt_created' ] );
     # Destinatario
-    $mpdf->SetFont( 'Helvetica', 'B', 13 );
-    $mpdf->WriteText( 10, 43, strtoupper( $obj[ 'wh_ddt_warehouse_prov' ] ) );
-    $mpdf->SetFont( 'Helvetica', 'R', 13 );
-    $mpdf->WriteText( 10, 50, ucfirst( $obj[ 'address_prov' ] ) );
-    $mpdf->WriteText( 10, 58, $indirizzoProv );
-    $mpdf->WriteText( 10, 65, $obj[ 'region_prov' ].' - '. $obj[ 'country_prov' ] );
+    $mpdf->SetFont( 'Calibri', 'B', 13 );
+    $mpdf->WriteText( 5, 43, strtoupper( $obj[ 'wh_ddt_warehouse_prov' ] ) );
+    $mpdf->SetFont( 'Calibri', 'R', 13 );
+    $mpdf->WriteText( 5, 50, ucfirst( $obj[ 'address_prov' ] ) );
+    $mpdf->WriteText( 5, 58, $indirizzoProv );
+
     # Destinazione
-    $mpdf->SetFont( 'Helvetica', 'B', 13 );
-    $mpdf->WriteText( 120, 43, strtoupper( $obj[ 'wh_ddt_warehouse_dest' ] ) );
-    $mpdf->SetFont( 'Helvetica', 'R', 13 );
-    $mpdf->WriteText( 120, 50, ucfirst( $obj[ 'address_dest' ] ) );
-    $mpdf->WriteText( 120, 58, $indirizzoDest );
-    $mpdf->WriteText( 120, 65, $obj[ 'region_dest' ].' - '. $obj[ 'country_dest' ] );
+    $mpdf->SetFont( 'Calibri', 'B', 13 );
+    $mpdf->WriteText( 115, 43, strtoupper( $obj[ 'wh_ddt_warehouse_dest' ] ) );
+    $mpdf->SetFont( 'Calibri', 'R', 13 );
+    $mpdf->WriteText( 115, 50, ucfirst( $obj[ 'address_dest' ] ) );
+    $mpdf->WriteText( 115, 58, $indirizzoDest );
+    
+    # Regione di Provenienza
+
+    if ( $obj[ 'region_prov' ] != '' ) {
+        $regioneProv =  $obj[ 'region_prov' ].' - '. $obj[ 'country_prov' ] ;
+    } else {
+        $regioneProv = '';
+    }
+   
+    
+    $mpdf->WriteText( 5, 65, $regioneProv);
+    
+    
+    # Regione di Destinazione
+    if ( $obj[ 'region_dest' ] != '' ) {
+        $regioneDest = $obj[ 'region_dest' ].' - '. $obj[ 'country_dest' ];
+    } else {
+        $regioneDest = '';
+    }
+
+    $mpdf->WriteText( 115, 65, $regioneDest );
 
     # Riga prodotti
     $ya = 75;
     $riga = 10;
+
+    $totPezzi = 0;
 
     foreach ( $obj[ 'wh_ddt_entries' ] as $entry ) {
 
@@ -69,7 +90,13 @@ try {
         $mpdf->WriteText( 65,  $ya, $entry[ 'name' ] );
         $mpdf->WriteText( 190,  $ya, $entry[ 'quantity' ] );
 
+        $totPezzi = $totPezzi + $entry[ 'quantity' ];
+
     }
+
+    # Totale Pezzi
+    $mpdf->SetFont( 'Calibri', 'B', 16 );
+    $mpdf->WriteText( 20, 250, strval( $totPezzi ) );
 
     //! FASE GENERAZIONE FILE
     $cartellaFile = $obj[ 'pathfile' ];
@@ -87,11 +114,11 @@ try {
     }
 
     # Genero pdf
-    $mpdf->Output( $file);
+    $mpdf->Output( $file, 'I' );
 
-	$risposta->codiceErrore = errore::Success;
-	$risposta->dati = $cartellaFile . $nome_file;
-	$risposta->messaggio = 'Doc' . str_replace("/", "_", $obj['nomefile'] . "_" . date("d_m_Y") . '.pdf' );
+    $risposta->codiceErrore = errore::Success;
+    $risposta->dati = $cartellaFile . $nome_file;
+    $risposta->messaggio = 'Doc' . str_replace( '/', '_', $obj[ 'nomefile' ] . '_' . date( 'd_m_Y' ) . '.pdf' );
     echo json_encode( $risposta );
 } catch ( Throwable $ex ) {
     $ex->getMessage();
