@@ -98,7 +98,7 @@ try {
 	$mpdf->SetFont('Calibri', 'R', 7);
 	$mpdf->WriteText(30.5, 25, strtoupper($costo));
 	
-	$hh = "<span style='font-size:10px'> (In 4 quote di <strong>$rata_trimestrale</strong> euro)</span>";
+	$hh = "<span style='font-size:10px;'> (In 4 quote di <strong>$rata_trimestrale</strong> euro)</span>";
 	$mpdf->SetXY(40,22.5);
 	$mpdf->WriteHTML($hh);
 

@@ -217,6 +217,9 @@ try {
 	$mpdf->AddPage();
 	$mpdf->Image('pagine/2.11.png', 0, 0, 210, 275, 'png', '', true, false);
 
+
+
+
 	$mpdf->SetAuthor("Yunes.it");
 
 	$cartellaFile = $obj['pathfile'];

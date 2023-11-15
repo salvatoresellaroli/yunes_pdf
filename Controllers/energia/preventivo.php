@@ -3,6 +3,8 @@ include '../../Core/init.php';
 require_once __DIR__ . '/vendor/autoload.php';
 try {
 
+    # Versione del 24-10-2023 14:15
+
     $mpdf = new \Mpdf\Mpdf([
         'default_font' => 'Calibri'
     ]);
@@ -23,7 +25,6 @@ try {
         $log->scrivi("PDF_energia", logType::middle, "[Errore] json vuoto ");
         throw new Exception("Dati json vuoto.");
     }
-
 
     $log->scrivi("PDF_energia", logType::middle, "[json] :", json_encode($obj, JSON_PRETTY_PRINT));
 
