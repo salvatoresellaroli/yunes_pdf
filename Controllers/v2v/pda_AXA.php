@@ -3,7 +3,7 @@ include '../../Core/init.php';
 require_once __DIR__ . '/vendor/autoload.php';
 try {
 
-	// Versione 1.0.4 del  29/08/2023
+	# Versione 1.0.5 del  15/11/2023
 
 	$mpdf = new \Mpdf\Mpdf([
 		'default_font' => 'Calibri'
@@ -104,24 +104,26 @@ try {
 
 	$mpdf->SetFont('Calibri', 'B', 11);
 	$mpdf->WriteText(125, 47.5, strtoupper($obj['codcontratto']));
-	$mpdf->WriteText(13, 165, strtoupper($obj['dtsign']));
+	$mpdf->WriteText(13, 181, strtoupper($obj['dtsign']));
 
 	$mpdf->SetFont('Calibri', 'B', 8);
 	$mpdf->WriteText(95, 85, strtoupper($obj['consensi_servizio']));
 	$mpdf->WriteText(95, 92, strtoupper($obj['consensi_servizio_2']));
 	$mpdf->WriteText(16, 113, strtoupper($obj['consensi_vendita']));
 	$mpdf->WriteText(16, 137, strtoupper($obj['consensi_profilazione']));
+	$consensi_fornitura_anticipata =  (empty($obj['consensi_fornitura_anticipata'])) ? '': $obj['consensi_fornitura_anticipata'];
+	$mpdf->WriteText(36, 172, strtoupper($consensi_fornitura_anticipata));
 
 	$mpdf->SetTextColor(135, 176, 114);
 	$mpdf->SetFont('Calibri', 'R', 5.5);
-	$mpdf->WriteText(17, 182, strtoupper($obj['tipo_pagamento']));
+	$mpdf->WriteText(17, 198, strtoupper($obj['tipo_pagamento']));
 	$mpdf->SetTextColor(0, 0, 0);
 	$mpdf->SetFont('Calibri', 'B', 5);
-	$mpdf->WriteText(18, 187.5, strtoupper($obj['label_pagamento'] . ":"));
+	$mpdf->WriteText(18, 203.5, strtoupper($obj['label_pagamento'] . ":"));
 	$mpdf->SetFont('Calibri', 'B', 11);
-	$mpdf->WriteText(19, 193, strtoupper($obj['pagamento']));
-	$mpdf->WriteText(112, 193, strtoupper($obj['intestatario']));
-	$mpdf->WriteText(112, 198, strtoupper($obj['ricorrenzaAbb']));
+	$mpdf->WriteText(19, 208.5, strtoupper($obj['pagamento']));
+	$mpdf->WriteText(112, 208.5, strtoupper($obj['intestatario']));
+	$mpdf->WriteText(112, 214, strtoupper($obj['ricorrenzaAbb']));
 
 	$mpdf->AddPage();
 

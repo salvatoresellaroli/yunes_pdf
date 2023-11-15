@@ -1,0 +1,801 @@
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 12:10:34]  -  LOG: V2V
+[15-11-2023 12:10:34]  -  IP: ::1
+[15-11-2023 12:10:34]  -  HOSTNAME: Salvatore
+[15-11-2023 12:10:34]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "42d05baf9046f196bd10071e329b5258.pdf",
+    "dati": "\/attachments\/106\/lists\/42d05baf9046f196bd10071e329b5258.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 13:55:33]  -  LOG: V2V
+[15-11-2023 13:55:33]  -  IP: ::1
+[15-11-2023 13:55:33]  -  HOSTNAME: Salvatore
+[15-11-2023 13:55:33]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "9d4ac77069ce6a2377f027c943bcbeef.pdf",
+    "dati": "\/attachments\/106\/lists\/9d4ac77069ce6a2377f027c943bcbeef.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 13:58:38]  -  LOG: V2V
+[15-11-2023 13:58:38]  -  IP: ::1
+[15-11-2023 13:58:38]  -  HOSTNAME: Salvatore
+[15-11-2023 13:58:38]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "578211c91ea7b26b468896fa2bc61c07.pdf",
+    "dati": "\/attachments\/106\/lists\/578211c91ea7b26b468896fa2bc61c07.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 13:59:12]  -  LOG: V2V
+[15-11-2023 13:59:12]  -  IP: ::1
+[15-11-2023 13:59:12]  -  HOSTNAME: Salvatore
+[15-11-2023 13:59:12]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "2263e0d4f554b7a26bcf1a76ae6a4c78.pdf",
+    "dati": "\/attachments\/106\/lists\/2263e0d4f554b7a26bcf1a76ae6a4c78.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:03:21]  -  LOG: V2V
+[15-11-2023 14:03:21]  -  IP: ::1
+[15-11-2023 14:03:21]  -  HOSTNAME: Salvatore
+[15-11-2023 14:03:21]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "22603a104b146f3c75530be4dbf35ff5.pdf",
+    "dati": "\/attachments\/106\/lists\/22603a104b146f3c75530be4dbf35ff5.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:04:15]  -  LOG: V2V
+[15-11-2023 14:04:15]  -  IP: ::1
+[15-11-2023 14:04:15]  -  HOSTNAME: Salvatore
+[15-11-2023 14:04:15]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "761eab61e5cf89078ceab55e8b528af3.pdf",
+    "dati": "\/attachments\/106\/lists\/761eab61e5cf89078ceab55e8b528af3.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:06:02]  -  LOG: V2V
+[15-11-2023 14:06:02]  -  IP: ::1
+[15-11-2023 14:06:02]  -  HOSTNAME: Salvatore
+[15-11-2023 14:06:02]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "f37952a3f454ad26f10d9c13c3dfcec8.pdf",
+    "dati": "\/attachments\/106\/lists\/f37952a3f454ad26f10d9c13c3dfcec8.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:07:01]  -  LOG: V2V
+[15-11-2023 14:07:01]  -  IP: ::1
+[15-11-2023 14:07:01]  -  HOSTNAME: Salvatore
+[15-11-2023 14:07:01]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "f8f8ef29ef392d115bf395676c86d651.pdf",
+    "dati": "\/attachments\/106\/lists\/f8f8ef29ef392d115bf395676c86d651.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:12:31]  -  LOG: V2V
+[15-11-2023 14:12:31]  -  IP: ::1
+[15-11-2023 14:12:31]  -  HOSTNAME: Salvatore
+[15-11-2023 14:12:31]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "fd39341042381c20d41ad0d0ad953951.pdf",
+    "dati": "\/attachments\/106\/lists\/fd39341042381c20d41ad0d0ad953951.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:13:04]  -  LOG: V2V
+[15-11-2023 14:13:04]  -  IP: ::1
+[15-11-2023 14:13:04]  -  HOSTNAME: Salvatore
+[15-11-2023 14:13:04]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "643c18dbf1760c2934f00181b785003a.pdf",
+    "dati": "\/attachments\/106\/lists\/643c18dbf1760c2934f00181b785003a.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:13:17]  -  LOG: V2V
+[15-11-2023 14:13:17]  -  IP: ::1
+[15-11-2023 14:13:17]  -  HOSTNAME: Salvatore
+[15-11-2023 14:13:17]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "b2d0a0e7c76a558600d126eee1a9c73a.pdf",
+    "dati": "\/attachments\/106\/lists\/b2d0a0e7c76a558600d126eee1a9c73a.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:13:46]  -  LOG: V2V
+[15-11-2023 14:13:46]  -  IP: ::1
+[15-11-2023 14:13:46]  -  HOSTNAME: Salvatore
+[15-11-2023 14:13:46]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_fornitura_anticipata": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "8a4f7b59bba3f9a6ce06b090b475d420.pdf",
+    "dati": "\/attachments\/106\/lists\/8a4f7b59bba3f9a6ce06b090b475d420.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:16:56]  -  LOG: V2V
+[15-11-2023 14:16:56]  -  IP: ::1
+[15-11-2023 14:16:56]  -  HOSTNAME: Salvatore
+[15-11-2023 14:16:56]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_fornitura_anticipata": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "e94bcdc1ad8fd4d611c220c5a78f4b69.pdf",
+    "dati": "\/attachments\/106\/lists\/e94bcdc1ad8fd4d611c220c5a78f4b69.pdf"
+}
+
+==========================================================================================================================
+==========================================================================================================================
+                                     [Inzio] 
+[15-11-2023 14:22:01]  -  LOG: V2V
+[15-11-2023 14:22:01]  -  IP: ::1
+[15-11-2023 14:22:01]  -  HOSTNAME: Salvatore
+[15-11-2023 14:22:01]  -  USER_AGENT: PostmanRuntime/7.34.0
+**************************************************************************************************************************
+[json] :
+
+{
+    "pathfile": "\/attachments\/106\/lists\/",
+    "contractid": "1276",
+    "codcontratto": "",
+    "dtsign": "13\/03\/2023",
+    "ricorrenzaAbb": "Mensile",
+    "intestatario": "Marino D Ignazio",
+    "pagamento": "CH158080800927213613 2",
+    "label_pagamento": "IBAN",
+    "tipo_pagamento": "Addebito diretto su conto corrente SDD",
+    "cognome": "dignazio",
+    "nome": "marino",
+    "codicefiscale": "DGNMRN70A03Z133W",
+    "telefono": "",
+    "cellulare": "3475255554",
+    "indirizzo": "VIA ceresio",
+    "civico": "30a",
+    "citta": "Lugano",
+    "prov": "TI",
+    "cap": "6963",
+    "email": "carlo@tekmind.it",
+    "prodotto": "test Abbonamento Marino",
+    "indirizzo_servizio": "Via Napoli",
+    "civico_servizio": "100",
+    "citta_servizio": "Casalnuovo di Napoli",
+    "prov_servizio": "NA",
+    "cap_servizio": "80013",
+    "immobile": "Proprietario",
+    "nucleo_familiare": "5",
+    "animali": "NO",
+    "consensi_servizio": "Do il consenso",
+    "consensi_fornitura_anticipata": "Do il consenso",
+    "consensi_vendita": "Nego il consenso",
+    "consensi_profilazione": "Nego il consenso",
+    "consensi_servizio_2": "Do il consenso",
+    "prezzo_netto": "100",
+    "iva": "22.00",
+    "prod_categ": "82"
+}
+
+[Risposta] :
+
+{
+    "codiceErrore": 1,
+    "messaggio": "67e3b7e746c058d0004e79defa3c9c04.pdf",
+    "dati": "\/attachments\/106\/lists\/67e3b7e746c058d0004e79defa3c9c04.pdf"
+}
+
+==========================================================================================================================
